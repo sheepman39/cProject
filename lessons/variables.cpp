@@ -15,6 +15,7 @@ int main()
     characterAge = 35;
     string stores a string
     int stores an int
+    bool stores a boolean
     */
 
     cout << "There was once a man named " << characterName << endl;
