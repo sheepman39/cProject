@@ -6,6 +6,7 @@ string getDayOfWeek(int dayNum){
 
     string dayName;
     
+    // switch works exactly like you would expect it to
     switch(dayNum){
         case 0:
             dayName = "Sunday";
@@ -31,7 +32,6 @@ string getDayOfWeek(int dayNum){
         default:
             dayName = "Invalid Day";
             break;
-
     }
     
     return dayName;
