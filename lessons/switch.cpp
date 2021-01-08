@@ -39,8 +39,15 @@ string getDayOfWeek(int dayNum){
 }
 int main()
 {
+    int dayOfWeek;
+    do{
     
-    cout << getDayOfWeek(1) << endl;
+        cout << "Please put the number of a day of the week: ";
+        cin >> dayOfWeek;
+    
+    }while(dayOfWeek < 0 || dayOfWeek > 6);
+    
+    cout << getDayOfWeek(dayOfWeek) << endl;
 
     return 0;
 }
